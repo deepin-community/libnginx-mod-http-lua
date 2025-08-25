@@ -1,3 +1,41 @@
+libnginx-mod-http-lua (1:0.10.28-2) unstable; urgency=medium
+
+  * d/control: bump Standards-Version: 4.7.2, no changes
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Fri, 11 Apr 2025 14:27:00 +0200
+
+libnginx-mod-http-lua (1:0.10.28-1) unstable; urgency=medium
+
+  * New upstream version 0.10.28
+  * d/{control,copyright}: update my email to "janmojzis@debian.org"
+  * d/copyright: bump debian/* copyright year
+  * d/watch: use more generic template
+  * d/control: updated lua-resty-core dependency (>=0.1.31)
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Mon, 10 Feb 2025 19:54:24 +0100
+
+libnginx-mod-http-lua (1:0.10.27-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Bo YU ]
+  * Add build support for riscv64. (Closes: #1089239)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 07 Dec 2024 19:39:26 +0100
+
+libnginx-mod-http-lua (1:0.10.27-2) unstable; urgency=medium
+
+  * d/control: fix dependency to lua-resty-core (>=0.1.30)
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 23 Oct 2024 17:34:43 +0200
+
+libnginx-mod-http-lua (1:0.10.27-1) unstable; urgency=medium
+
+  * New upstream version 0.10.27
+  * d/control: updated lua-resty-core dependency >=0.1.29, <<0.1.29.1~
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 19 Aug 2024 10:01:59 +0200
+
 libnginx-mod-http-lua (1:0.10.26-3) unstable; urgency=medium
 
   * d/control: bump Standards-Version: 4.7.0, no changes
