@@ -14,7 +14,7 @@ Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-http-lua
 Rules-Requires-Root: no
 
 Package: libnginx-mod-http-lua
-Architecture: amd64 arm64 armel armhf i386 mips64el mipsel powerpc riscv64 s390x
+Architecture: amd64 arm64 armel armhf i386 mips64el mipsel powerpc riscv64 s390x loong64 sw64
 Multi-Arch: foreign
 Depends: lua-resty-core (>=0.1.31),
          ${misc:Depends},

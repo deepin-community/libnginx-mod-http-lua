@@ -1,3 +1,9 @@
+libnginx-mod-http-lua (1:0.10.28-2deepin1) unstable; urgency=medium
+
+  * add loong64 and sw64 architectures.
+
+ -- lichenggang <lichenggang@deepin.org>  Fri, 10 Oct 2025 16:03:40 +0800
+
 libnginx-mod-http-lua (1:0.10.28-2) unstable; urgency=medium
 
   * d/control: bump Standards-Version: 4.7.2, no changes
